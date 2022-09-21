@@ -1,0 +1,13 @@
+button{
+    padding: 4px 30px;
+    background-color: rgb(11 150 213 / 62%);
+    border: rgb(11 150 213 / 62%);
+    color: #fff;
+    border-radius: 5px;
+}
+.inp-sec{
+    width: 50%;
+}
+.display{
+    width: 50%;
+}

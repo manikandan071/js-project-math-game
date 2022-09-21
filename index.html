@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="d-flex">
+        <div class="inp-sec">
+            <div class="row">
+                <div class="col-3 mt-5">
+                    <label for="">Operation:</label><br>
+                    <select name="" id="operators">
+                        <option value="add">add</option>
+                        <option value="sub">sub</option>
+                        <option value="multiple">multiple</option>
+                        <option value="division">division</option>
+                    </select>
+                </div>
+                <div class="col-3 mt-5">
+                    <label for="">With In Range:</label><br>
+                    <select name="" id="range">
+                        <option value="9">1 to 9</option>
+                        <option value="19">1 to 19</option>
+                        <option value="29">1 to 29</option>
+                        <option value="39">1 to 39</option>
+                        <option value="49">1 to 49</option>
+                        <option value="99">1 to 99</option>
+                    </select>
+                </div>
+                <div class="col-3 mt-5">
+                    <button id="starts">starts</button><br>
+                    <button id="calculate" style="display: none; margin-top: 5px;">Done</button>
+                </div>
+                
+            </div>
+        
+    </div>
+    <div class="display">
+        <div class="row text-center" id="display">
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
