@@ -14,8 +14,8 @@
     <div class="d-flex">
         <div class="inp-sec">
             <div class="row">
-                <div class="col-3 mt-5">
-                    <label for="">Operation:</label><br>
+                <div class="col-4 mt-5">
+                    <label for="">Select Type :</label>
                     <select name="" id="operators">
                         <option value="add">add</option>
                         <option value="sub">sub</option>
@@ -23,8 +23,8 @@
                         <option value="division">division</option>
                     </select>
                 </div>
-                <div class="col-3 mt-5">
-                    <label for="">With In Range:</label><br>
+                <div class="col-5 mt-5">
+                    <label for="">Select Range :</label>
                     <select name="" id="range">
                         <option value="9">1 to 9</option>
                         <option value="19">1 to 19</option>
@@ -35,19 +35,28 @@
                     </select>
                 </div>
                 <div class="col-3 mt-5">
-                    <button id="starts">starts</button><br>
-                    <button id="calculate" style="display: none; margin-top: 5px;">Done</button>
+                    <button class="start" id="starts">starts</button><br>
+                    <button class="submit" id="calculate" style="display: none; margin-top: 5px;">Submit</button>
                 </div>
                 
             </div>
         
     </div>
-    <div class="display">
-        <div class="row text-center" id="display">
-
+</div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 text-center mt-5" >
+            <div class="show">
+                <h2 class="grade"></h2>
+                <p>Your marks is <strong class="result"></strong> outoff <strong>16</strong>.</p>
+                
+            </div>
+        </div>
+        <div class="display col-lg-12 col-md-12 align-items-center">
+            <div class="row text-center " id="display"></div>
         </div>
     </div>
-</div>
 </div>
 
 

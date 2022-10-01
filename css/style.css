@@ -1,13 +1,53 @@
-button{
-    padding: 4px 30px;
+.start{
+    padding: 4px 20px;
     background-color: rgb(11 150 213 / 62%);
     border: rgb(11 150 213 / 62%);
     color: #fff;
     border-radius: 5px;
 }
-.inp-sec{
-    width: 50%;
+.submit{
+    padding: 4px 15px;
+    background-color: rgb(11 150 213 / 62%);
+    border: rgb(11 150 213 / 62%);
+    color: #fff;
+    border-radius: 5px;
+
 }
-.display{
+.inp-sec{
+    width: 100%;
+    animation: transitionIn 2s ease;
+}
+label{
+    padding-bottom: 20px;
+}
+.show{
+    display: none;
     width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+    padding: 15px;
+}
+@keyframes transitionIn{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes transitionOut{
+    0%{
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+#display{
+    justify-content: center;
 }
